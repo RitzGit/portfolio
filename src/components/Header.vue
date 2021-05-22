@@ -16,12 +16,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+    @mixin flexbox() {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    }
+
     #header {
         background: #1d1d1d;
-        color: #e2e2e2;
+        
         height: 20ch;
         border-radius: 5ch;
-        display: flex;
+        @include flexbox();
         flex-direction: column;
         justify-content: center;
         align-items: center;
