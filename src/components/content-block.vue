@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'content-block'
+    name: 'content-block'
 }
 </script>
 

@@ -7,10 +7,10 @@
 
 <script>
 export default {
-  name: 'header-block',
-  props: {
-    title: String
-  }
+    name: 'header-block',
+    props: {
+        title: String
+    }
 }
 </script>
 
