@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <Header title="Undergraduate student at the University of Bonn"/>
-    <Content/>
+    <header-block title="Undergraduate student at the University of Bonn"/>
+    <content-block/>
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Content from './components/Content.vue'
+import headerBlock from './components/header-block.vue'
+import contentBlock from './components/content-block.vue'
 
 export default {
   name: 'App',
   components: {
-    Header,
-    Content
+    headerBlock,
+    contentBlock
   }
 }
 </script>
