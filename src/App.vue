@@ -1,28 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Hello World!"/>
+    <Header title="Undergraduate student at the University of Bonn"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header
   }
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
-  margin-top: 60px;
+  display:grid;
+  grid-template-columns: repeat(8, 12.5vw);
+  grid-template-rows: auto;
+  grid-template-areas: 
+  ". header header header header header header ."
+  ". navbar navbar navbar navbar navbar navbar ."
+  "content content content content content content content content";
 }
 </style>

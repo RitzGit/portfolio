@@ -1,32 +1,38 @@
 <template>
-  <div class="header">
-
-  </div>
+    <header id="header">
+        <h1>Marvin Wallenfang</h1>
+        <h2>{{title}}</h2>
+    </header>      
 </template>
 
 <script>
 export default {
   name: 'Header',
   props: {
-    msg: String
+    title: String
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style scoped lang="scss">
+    #header {
+        background: #1d1d1d;
+        color: #e2e2e2;
+        height: 20ch;
+        border-radius: 5ch;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-area: header;
+
+        h1 {
+            font-size:5rem;
+            margin: 0px;
+        }
+        h2 {
+            margin: 0px;
+        }
+    }
 </style>
