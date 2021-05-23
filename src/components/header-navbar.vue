@@ -1,9 +1,9 @@
 <template>
-    <navbar id="navbar">
+    <div id="navbar">
         <a href="#Über mich">Über mich</a>
         <a href="#Hobbies">Hobbies</a>
         <a href="#Projekte">Projekte</a>
-    </navbar>      
+    </div>      
 </template>
 
 <script>
