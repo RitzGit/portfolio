@@ -1,7 +1,7 @@
 <template>
     <header id="header">
         <h1>Marvin Wallenfang</h1>
-        <h2>Bachelor Student für Informatik an der Universität Bonn</h2>
+        <h2>Bachelor Student für Informatik an der <a href="https://www.uni-bonn.de/" target="_blank">Universität Bonn</a></h2>
     </header>      
 </template>
 
@@ -30,6 +30,13 @@ export default {
 
         grid-area: header;
 
+        a {
+            color: var(--textColour);
+            text-decoration: none;
+            &:hover {
+                color: var(--accentColour);
+            }
+        }
         h1 {
             font-size:5rem;
             margin: 0px;

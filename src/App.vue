@@ -27,7 +27,7 @@
     #app {
         width: 100%;
         height: 100%;
-        
+
         background: var(--backgroundColour);
 
         font-family: 'Open Sans', sans-serif;
