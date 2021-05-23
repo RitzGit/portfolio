@@ -19,7 +19,7 @@ export default {
         },
         end:{
             type: Number,
-            default: 8
+            default: 9
         },
     },
     computed: {
@@ -36,7 +36,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     .block {
-        display:grid;
         background: #1d1d1d;
         border-radius: 10px;
         margin: 1ch;

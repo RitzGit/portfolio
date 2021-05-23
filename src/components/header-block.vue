@@ -1,7 +1,7 @@
 <template>
     <header id="header">
         <h1>Marvin Wallenfang</h1>
-        <h2>Informatik Bachelor Student an der Universität Bonn</h2>
+        <h2>Bachelor Student für Informatik an der Universität Bonn</h2>
     </header>      
 </template>
 

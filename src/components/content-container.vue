@@ -20,8 +20,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     #content {
+        
         display: grid;
-        grid-template-columns: repeat(6, 12.5vw);
+        grid-template-columns: repeat(8, 1fr);
         grid-template-rows: auto;
 
         padding-top: 10vh;

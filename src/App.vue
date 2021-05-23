@@ -31,11 +31,11 @@
         color: #e2e2e2;
 
         display:grid;
-        grid-template-columns: repeat(8, 12.5vw);
+        grid-template-columns: repeat(8, 1fr);
         grid-template-rows: auto;
         grid-template-areas: 
         ". header header header header header header ."
         ". . navbar navbar navbar navbar . ."
-        ". content content content content content content .";
+        "content content content content content content content content";
     }
 </style>
