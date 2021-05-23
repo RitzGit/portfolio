@@ -7,17 +7,16 @@
 </template>
 
 <script>
-import contentBlock from "./content-block.vue"
+    import contentBlock from "./content-block.vue"
 
-export default {
-    components: { 
-        contentBlock 
-    },
-    name: 'content-container'
-}
+    export default {
+        components: { 
+            contentBlock 
+        },
+        name: 'content-container'
+    }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     #content {
         
