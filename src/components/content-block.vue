@@ -1,5 +1,5 @@
 <template>
-    <div id="content">The portfolio of Marvin Wallenfang is being built here.</div>    
+    <div id="block">test1</div>   
 </template>
 
 <script>
@@ -10,14 +10,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-    #content {
-        padding-top: 10vh;
-        grid-area: content;
-
+    #block {
         font-size: 2rem;
 
         display: flex;
-        align-items: center;
-        justify-content: center;
+        justify-content: left;
     }
 </style>

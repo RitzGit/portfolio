@@ -1,7 +1,7 @@
 <template>
     <header id="header">
         <h1>Marvin Wallenfang</h1>
-        <h2>{{title}}</h2>
+        <h2>Informatik Bachelor Student an der Universität Bonn</h2>
     </header>      
 </template>
 
@@ -9,8 +9,8 @@
 export default {
     name: 'header-block',
     props: {
-        title: String
-    },
+        title:String
+    }
 }
 </script>
 

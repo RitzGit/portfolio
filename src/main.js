@@ -7,6 +7,6 @@ Vue.config.productionTip = true
 /*let vm = */new Vue(
     {
         el: "#app",
-        render: comp => comp(App)
+        render: comp => comp(App),
     }
 )
