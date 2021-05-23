@@ -44,7 +44,7 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     .block {
-        background: var(--lightBoxBackgroundColour);
+        background: var(--boxBackgroundColour);
         border-radius: 10px;
         margin: 1ch;
         padding: 1rem;
@@ -54,7 +54,7 @@
         grid-column-end: var(--end);
 
         h3 {
-            color: var(--AccentColour);
+            color: var(--accentColour);
         }
 
     }
