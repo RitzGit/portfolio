@@ -28,7 +28,7 @@
         -moz-osx-font-smoothing: grayscale;
 
         text-align: left;
-        color: #e2e2e2;
+        color: #1d1d1d;
 
         display:grid;
         grid-template-columns: repeat(8, 1fr);
