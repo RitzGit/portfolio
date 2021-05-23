@@ -6,37 +6,45 @@
 </template>
 
 <script>
-export default {
-    name: 'content-block',
-    props: {
-        id:{
-            type: String,
-            default: ""
+    export default {
+        name: 'content-block',
+        props: {
+            id:{
+                type: String,
+                default: ""
+            },
+            start:{
+                type: Number,
+                default: 1
+            },
+            end:{
+                type: Number,
+                default: 9
+            },
+            contentId:{
+                type: String,
+                default: "default"
+            },
+            language:{
+                type:String,
+                default: "de"
+            }
         },
-        start:{
-            type: Number,
-            default: 1
-        },
-        end:{
-            type: Number,
-            default: 9
-        },
-    },
-    computed: {
-        startEndVars () {
-            return{
-                '--start': this.start,
-                '--end': this.end
+        computed: {
+            startEndVars () {
+                return{
+                    '--start': this.start,
+                    '--end': this.end
+                }
             }
         }
     }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     .block {
-        background: var(--boxBackgroundColour);
+        background: var(--lightBoxBackgroundColour);
         border-radius: 10px;
         margin: 1ch;
         padding: 1rem;
@@ -44,6 +52,10 @@ export default {
 
         grid-column-start: var(--start);
         grid-column-end: var(--end);
+
+        h3 {
+            color: var(--AccentColour);
+        }
 
     }
 </style>

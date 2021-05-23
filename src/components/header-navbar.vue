@@ -15,7 +15,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     #navbar {
-        background: var(--boxBackgroundColour);
+        background: var(--lightBoxBackgroundColour);
         
         border-radius: 10px;
         padding: 1ch;

@@ -29,7 +29,7 @@
         -moz-osx-font-smoothing: grayscale;
 
         text-align: left;
-        color: var(--textColour);
+        color: var(--lightTextColour);
 
         display:grid;
         grid-template-columns: repeat(8, 1fr);

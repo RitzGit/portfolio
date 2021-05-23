@@ -17,7 +17,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     #header {
-        background: var(--boxBackgroundColour);
+        background: var(--lightBoxBackgroundColour);
         
         height: 20ch;
         border-radius: 10px;
@@ -33,6 +33,7 @@ export default {
         h1 {
             font-size:5rem;
             margin: 0px;
+            color: var(--lightAccentColour)
         }
         h2 {
             margin: 0px;

@@ -1,5 +1,17 @@
 :root {
-    --textColour: #1d1d1d;
-    --backgroundColour: #e0e0e0;
-    --boxBackgroundColour: #b4b4b4;
+    /*Light mode
+    https://www.color-hex.com/color-palette/106748*/
+    --lightTextColour: #484b6a;
+    --lightBackgroundColour: #fafafa;
+    --lightBoxBackgroundColour: #e4e5f1;
+    --lightAccentColour: var(--AccentColour);
+
+    /*Dark mods
+    */
+    --darkTextColour: #ffffff;
+    --darkBackgroundColour: #121212;
+    --darkBoxBackgroundColour: #1f1f1f;
+    --darkAccentColour: var(--AccentColour);
+
+    --AccentColour: #a04dff;
 }
