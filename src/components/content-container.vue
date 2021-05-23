@@ -1,9 +1,8 @@
 <template>
     <div id="content">
-        <p>Hier entsteht das Portfolio von Marvin Wallenfang</p>
-        <content-block/>
-        <content-block/>
-        <content-block/>
+        <content-block id="Über mich" :end="5"/>
+        <content-block id="Hobbies"/>
+        <content-block id="Projekte"/>
     </div>  
 </template>
 
@@ -21,6 +20,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     #content {
+        display: grid;
+        grid-template-columns: repeat(6, 12.5vw);
+        grid-template-rows: auto;
+
         padding-top: 10vh;
         grid-area: content;
 

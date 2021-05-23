@@ -20,11 +20,14 @@ export default {
         background: #1d1d1d;
         
         height: 20ch;
-        border-radius: 5ch;
+        border-radius: 10px;
+        margin: 1ch;
+
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
         grid-area: header;
 
         h1 {

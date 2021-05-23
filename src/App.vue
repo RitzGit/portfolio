@@ -1,6 +1,7 @@
 <template>
     <div id="app">
         <header-block/>
+        <header-navbar/>
         <content-container/>
     </div>
 </template>
@@ -8,12 +9,14 @@
 <script>
     import headerBlock from './components/header-block.vue'
     import contentContainer from './components/content-container.vue'
+    import headerNavbar from './components/header-navbar.vue'
 
     export default {
         name: 'App',
         components: {
             headerBlock,
-            contentContainer
+            contentContainer,
+            headerNavbar
         },
     }
 </script>
@@ -32,7 +35,7 @@
         grid-template-rows: auto;
         grid-template-areas: 
         ". header header header header header header ."
-        ". navbar navbar navbar navbar navbar navbar ."
+        ". . navbar navbar navbar navbar . ."
         ". content content content content content content .";
     }
 </style>
