@@ -1,6 +1,6 @@
 <template>
     <div id="content">
-        <content-block id="Über mich" :end="5"/>
+        <content-block id="Über Mich" :end="5"/>
         <content-block id="Hobbies"/>
         <content-block id="Projekte"/>
     </div>  

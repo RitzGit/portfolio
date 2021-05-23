@@ -1,6 +1,6 @@
 <template>
     <div id="navbar">
-        <a href="#Über mich">Über mich</a>
+        <a href="#Über Mich">Über Mich</a>
         <a href="#Hobbies">Hobbies</a>
         <a href="#Projekte">Projekte</a>
     </div>      
