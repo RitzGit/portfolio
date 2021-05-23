@@ -22,13 +22,14 @@
 </script>
 
 <style lang="scss">
+    @import './assets/styles/variables.css';
     #app {
         font-family: 'Open Sans', sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
 
         text-align: left;
-        color: #1d1d1d;
+        color: var(--textColour);
 
         display:grid;
         grid-template-columns: repeat(8, 1fr);

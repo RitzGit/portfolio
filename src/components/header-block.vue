@@ -17,7 +17,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     #header {
-        background: #b4b4b4;
+        background: var(--boxBackgroundColour);
         
         height: 20ch;
         border-radius: 10px;

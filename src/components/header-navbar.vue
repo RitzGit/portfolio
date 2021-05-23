@@ -15,7 +15,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     #navbar {
-        background: #b4b4b4;
+        background: var(--boxBackgroundColour);
         
         border-radius: 10px;
         padding: 1ch;
@@ -30,7 +30,7 @@ export default {
         a {
             font-size: 1.5rem;
             text-decoration: none;
-            color: #1d1d1d;
+            color: var(--textColour);
         }
     }
 </style>

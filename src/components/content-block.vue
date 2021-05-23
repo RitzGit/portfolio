@@ -36,7 +36,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     .block {
-        background: #b4b4b4;
+        background: var(--boxBackgroundColour);
         border-radius: 10px;
         margin: 1ch;
         padding: 1rem;
