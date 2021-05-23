@@ -10,26 +10,18 @@ export default {
     name: 'header-block',
     props: {
         title: String
-    }
+    },
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-    @mixin flexbox() {
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-    }
-
     #header {
         background: #1d1d1d;
         
         height: 20ch;
         border-radius: 5ch;
-        @include flexbox();
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;

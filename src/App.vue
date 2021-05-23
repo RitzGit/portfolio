@@ -6,16 +6,25 @@
 </template>
 
 <script>
-import headerBlock from './components/header-block.vue'
-import contentBlock from './components/content-block.vue'
+    import headerBlock from './components/header-block.vue'
+    import contentBlock from './components/content-block.vue'
 
-export default {
-    name: 'App',
-    components: {
-        headerBlock,
-        contentBlock
+    //let title = "Undergraduate student at the University of Bonn"
+
+    //this.set(headerBlock, 'title', title)
+
+    export default {
+        name: 'App',
+        components: {
+            headerBlock,
+            contentBlock
+        },
+        data: function () {
+            return {
+                title: "Undergraduate student at the University of Bonn"
+            }
+        }
     }
-}
 </script>
 
 <style lang="scss">
@@ -23,8 +32,10 @@ export default {
         font-family: 'Open Sans', sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        
         text-align: left;
         color: #e2e2e2;
+
         display:grid;
         grid-template-columns: repeat(8, 12.5vw);
         grid-template-rows: auto;
