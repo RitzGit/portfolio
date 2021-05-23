@@ -19,11 +19,6 @@
             headerBlock,
             contentBlock
         },
-        data: function () {
-            return {
-                title: "Undergraduate student at the University of Bonn"
-            }
-        }
     }
 </script>
 
@@ -32,7 +27,7 @@
         font-family: 'Open Sans', sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        
+
         text-align: left;
         color: #e2e2e2;
 
