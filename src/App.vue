@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app" :class="selected">
         <header-block/>
         <header-navbar/>
         <content-container/>
@@ -10,7 +10,7 @@
     import headerBlock from './components/header-block.vue'
     import contentContainer from './components/content-container.vue'
     import headerNavbar from './components/header-navbar.vue'
-    import(`./assets/styles/${"light"}.css`)
+    import(`./assets/styles/themes.css`)
 
     export default {
         name: 'App',
@@ -19,6 +19,17 @@
             contentContainer,
             headerNavbar
         },
+        computed: {
+            toggleTheme() {
+                console.log(this.$theme)
+                return this.$theme
+            }
+        },
+        data() {
+            return {
+                selected: "light"
+            }
+        }
     }
 </script>
 
