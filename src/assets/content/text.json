@@ -26,7 +26,7 @@
             },
             "en": {
                 "title": "About Me",
-                "contentHTML": "<p>Currently I am a computer science undergraduate student at the University of Bonn.</p> <p>I love to learn new technologies and possibilities by trial and error, but I rarely am scared to work through a tutorial or documentation for a whole day if necessary.</p> <p>That's also how and why this whole website even exists. :)</p>"
+                "contentHTML": "<p>Currently I am a computer science undergraduate student at the University of Bonn.</p> <p>I love to learn new technologies and possibilities by trial and error, but I also am rarely scared to work through a tutorial or documentation for a whole day if necessary.</p> <p>That's also how and why this whole website even exists. :)</p>"
             }
         },
         "Interests": {

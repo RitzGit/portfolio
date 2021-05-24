@@ -70,10 +70,10 @@
         right:1%;
 
         width: 3%;
+        min-width: 35px;
         background: var(--boxBackgroundColour);
 
         border-radius: 0 0 10% 10%;
-        padding: 0.2%;
         svg {
             fill: var(--textColour);
             &:hover {
