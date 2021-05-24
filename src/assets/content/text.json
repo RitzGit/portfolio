@@ -2,7 +2,7 @@
     "header": {
         "name": "Marvin Wallenfang",
         "de": "Bachelor Student für Informatik an der <a href=\"https://www.uni-bonn.de/\" target=\"_blank\">Universität Bonn</a>",
-        "en": "Computer Science Undergraduate Student at the <a href=\"https://www.uni-bonn.de/en\" target=\"_blank\">University of Bonn</a>"
+        "en": "Undergraduate Computer Science Student at the <a href=\"https://www.uni-bonn.de/en\" target=\"_blank\">University of Bonn</a>"
     },
     "fields": {
         "" : {
@@ -22,22 +22,22 @@
             "end": 5,
             "de": {
                 "title": "Über Mich",
-                "contentHTML": "abcdefgh"
+                "contentHTML": "<p>Zurzeit bin ich ein Informatikstudent an der Universität Bonn.</p> <p>Ich liebe es neue Technologien und Möglichkeiten durch Trial and Error zu lernen, aber scheue meist auch nicht davon zurück mal einen Tag lang ein Tutorial oder eine Dokumentation durchzuarbeiten.</p> <p>Das ist auch warum und wie diese ganze Webseite entstanden ist. :)</p>"
             },
             "en": {
                 "title": "About Me",
-                "contentHTML": "abcdefgh"
+                "contentHTML": "<p>Currently I am a computer science undergraduate student at the University of Bonn.</p> <p>I love to learn new technologies and possibilities by trial and error, but I rarely am scared to work through a tutorial or documentation for a whole day if necessary.</p> <p>That's also how and why this whole website even exists. :)</p>"
             }
         },
-        "Hobbies": {
+        "Interests": {
             "start": 1,
             "end": 9,
             "de": {
-                "title": "Hobbies",
+                "title": "Interessen",
                 "contentHTML": "abcdefgh"
             },
             "en": {
-                "title": "Hobbies",
+                "title": "Interests",
                 "contentHTML": "abcdefgh"
             }
         },

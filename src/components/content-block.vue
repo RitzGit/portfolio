@@ -14,18 +14,6 @@
             id:{
                 type: String,
                 default: ""
-            },
-            start:{
-                type: Number,
-                default: 1
-            },
-            end:{
-                type: Number,
-                default: 9
-            },
-            language:{
-                type:String,
-                default: "de"
             }
         },
         computed: {

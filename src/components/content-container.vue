@@ -1,7 +1,7 @@
 <template>
     <div id="content">
         <content-block id="About Me"/>
-        <content-block id="Hobbies"/>
+        <content-block id="Interests"/>
         <content-block id="Projects"/>
     </div>  
 </template>
@@ -19,7 +19,6 @@
 
 <style scoped lang="scss">
     #content {
-        
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: auto;
@@ -34,6 +33,5 @@
             align-items: center;
             justify-content: center;
         }
-        
     }
 </style>

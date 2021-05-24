@@ -12,7 +12,6 @@
     import headerNavbar from './components/header-navbar.vue'
     import(`./assets/styles/${"light"}.css`)
 
-
     export default {
         name: 'App',
         components: {
@@ -24,7 +23,6 @@
 </script>
 
 <style lang="scss">
-    
     #app {
         width: 100%;
         height: 100%;
