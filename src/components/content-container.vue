@@ -1,8 +1,8 @@
 <template>
     <div id="content">
-        <content-block id="Über Mich" :end="5"/>
+        <content-block id="About Me"/>
         <content-block id="Hobbies"/>
-        <content-block id="Projekte"/>
+        <content-block id="Projects"/>
     </div>  
 </template>
 
@@ -10,10 +10,10 @@
     import contentBlock from "./content-block.vue"
 
     export default {
+        name: 'content-container',
         components: { 
             contentBlock 
-        },
-        name: 'content-container'
+        }
     }
 </script>
 

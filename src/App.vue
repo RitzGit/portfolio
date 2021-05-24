@@ -7,11 +7,10 @@
 </template>
 
 <script>
-    //import Vue from 'vue'
     import headerBlock from './components/header-block.vue'
     import contentContainer from './components/content-container.vue'
     import headerNavbar from './components/header-navbar.vue'
-    import('./assets/styles/light.css')
+    import(`./assets/styles/${"light"}.css`)
 
 
     export default {

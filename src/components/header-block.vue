@@ -1,20 +1,27 @@
 <template>
     <header id="header">
-        <h1>Marvin Wallenfang</h1>
-        <h2>Bachelor Student für Informatik an der <a href="https://www.uni-bonn.de/" target="_blank">Universität Bonn</a></h2>
+        <h1>{{headerContent.name}}</h1>
+        <h2 v-html="headerContent[this.$lang]"></h2>
     </header>      
 </template>
 
 <script>
+    import {header} from '../assets/content/text.json';
+    
     export default {
         name: 'header-block',
-        props: {
-            title:String
+        computed: {
+            headerContent() {
+                return header
+            },
+            lang() {
+                return this.$lang
+            }
         }
     }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
     #header {
         background: var(--boxBackgroundColour);
         

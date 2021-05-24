@@ -1,0 +1,57 @@
+{
+    "header": {
+        "name": "Marvin Wallenfang",
+        "de": "Bachelor Student für Informatik an der <a href=\"https://www.uni-bonn.de/\" target=\"_blank\">Universität Bonn</a>",
+        "en": "Computer Science Undergraduate Student at the <a href=\"https://www.uni-bonn.de/en\" target=\"_blank\">University of Bonn</a>"
+    },
+    "fields": {
+        "" : {
+            "start": 1,
+            "end": 9,
+            "de": {
+                "title": "Default",
+                "contentHTML": "default"
+            },
+            "en": {
+                "title": "Default",
+                "contentHTML": "default"
+            }
+        },
+        "About Me": {
+            "start": 1,
+            "end": 5,
+            "de": {
+                "title": "Über Mich",
+                "contentHTML": "abcdefgh"
+            },
+            "en": {
+                "title": "About Me",
+                "contentHTML": "abcdefgh"
+            }
+        },
+        "Hobbies": {
+            "start": 1,
+            "end": 9,
+            "de": {
+                "title": "Hobbies",
+                "contentHTML": "abcdefgh"
+            },
+            "en": {
+                "title": "Hobbies",
+                "contentHTML": "abcdefgh"
+            }
+        },
+        "Projects": {
+            "start": 1,
+            "end": 9,
+            "de": {
+                "title": "Projekte",
+                "contentHTML": "abcdefgh"
+            },
+            "en": {
+                "title": "Projects",
+                "contentHTML": "abcdefgh"
+            }
+        }
+    }
+}

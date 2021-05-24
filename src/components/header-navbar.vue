@@ -1,14 +1,21 @@
 <template>
     <div id="navbar">
-        <a href="#Über Mich">Über Mich</a>
-        <a href="#Hobbies">Hobbies</a>
-        <a href="#Projekte">Projekte</a>
+        <a href="#About Me">{{fields["About Me"][this.$lang].title}}</a>
+        <a href="#Hobbies">{{fields["Hobbies"][this.$lang].title}}</a>
+        <a href="#Projects">{{fields["Projects"][this.$lang].title}}</a>
     </div>      
 </template>
 
 <script>
+    import {fields} from '../assets/content/text.json';
+
     export default {
-        name: 'header-navbar'
+        name: 'header-navbar',
+        computed: {
+            fields() {
+                return fields;
+            }
+        }
     }
 </script>
 

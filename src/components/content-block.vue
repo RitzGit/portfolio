@@ -1,11 +1,13 @@
 <template>
     <div class="block" :id="id" :style="startEndVars">
-        <h3>{{id}}</h3>
-        <p>texte tesstsdhsjakdh alsjkl </p>
+        <h3>{{content[this.$lang].title}}</h3>
+        <div v-html="content[this.$lang].contentHTML"></div>
     </div>   
 </template>
 
 <script>
+    import {fields} from '../assets/content/text.json';
+
     export default {
         name: 'content-block',
         props: {
@@ -21,10 +23,6 @@
                 type: Number,
                 default: 9
             },
-            contentId:{
-                type: String,
-                default: "default"
-            },
             language:{
                 type:String,
                 default: "de"
@@ -33,9 +31,12 @@
         computed: {
             startEndVars () {
                 return{
-                    '--start': this.start,
-                    '--end': this.end
+                    '--start': fields[this.id].start,
+                    '--end': fields[this.id].end
                 }
+            },
+            content() {
+                return fields[this.id]
             }
         }
     }
