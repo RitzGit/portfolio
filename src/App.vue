@@ -65,15 +65,16 @@
 
 <style lang="scss">
     #theme-switch {
+        margin:1ch;
         position: absolute;
         top:0;
-        right:1%;
+        right:0;
 
         width: 3%;
         min-width: 35px;
         background: var(--boxBackgroundColour);
 
-        border-radius: 0 0 10% 10%;
+        border-radius: 10%;
         svg {
             fill: var(--textColour);
             &:hover {

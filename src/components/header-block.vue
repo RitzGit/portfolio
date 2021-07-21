@@ -37,10 +37,10 @@
         grid-area: header;
 
         a {
-            color: var(--textColour);
+            color: var(--accentColour);
             text-decoration: none;
             &:hover {
-                color: var(--accentColour);
+                text-decoration: underline;
             }
         }
         h1 {

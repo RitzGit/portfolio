@@ -30,7 +30,7 @@
     }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
     .block {
         background: var(--boxBackgroundColour);
         border-radius: 10px;
@@ -44,6 +44,12 @@
         h3 {
             color: var(--accentColour);
         }
-
+    }
+    a {
+        color: var(--accentColour);
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
     }
 </style>

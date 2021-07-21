@@ -2,7 +2,10 @@
     <div id="content">
         <content-block id="About Me"/>
         <content-block id="Interests"/>
+        <content-block id="InterestsMusic"/>
+        <content-block id="InterestsTeaching"/>
         <content-block id="Projects"/>
+        <content-block id="WebsiteProject"/>
     </div>  
 </template>
 

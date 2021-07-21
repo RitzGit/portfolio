@@ -1,6 +1,6 @@
 {
     "header": {
-        "name": "My Name",
+        "name": "Marvin Wallenfang",
         "de": "Bachelor Student für Informatik an der <a href=\"https://www.uni-bonn.de/\" target=\"_blank\">Universität Bonn</a>",
         "en": "Undergraduate Computer Science Student at the <a href=\"https://www.uni-bonn.de/en\" target=\"_blank\">University of Bonn</a>"
     },
@@ -30,27 +30,63 @@
             }
         },
         "Interests": {
-            "start": 1,
+            "start": 4,
             "end": 9,
             "de": {
                 "title": "Interessen",
-                "contentHTML": "abcdefgh"
+                "contentHTML": "<p>Neben der Informatik habe ich noch einige weitere Interessen.</p>"
             },
             "en": {
                 "title": "Interests",
-                "contentHTML": "abcdefgh"
+                "contentHTML": "<p>I also have several other interests next to computer science and technology.</p>"
+            }
+        },
+        "InterestsMusic": {
+            "start": 1,
+            "end": 9,
+            "de": {
+                "title": "Musik",
+                "contentHTML": ""
+            },
+            "en": {
+                "title": "Music",
+                "contentHTML": ""
+            }
+        },
+        "InterestsTeaching": {
+            "start": 1,
+            "end": 9,
+            "de": {
+                "title": "Lehre",
+                "contentHTML": ""
+            },
+            "en": {
+                "title": "Education",
+                "contentHTML": ""
             }
         },
         "Projects": {
             "start": 1,
-            "end": 9,
+            "end": 5,
             "de": {
                 "title": "Projekte",
-                "contentHTML": "abcdefgh"
+                "contentHTML": "<p>Ich versuche immer in Projekt am laufen zu haben, an dem ich arbeiten kann und mit dem ich neue Dinge lernen kann.</p> <p>Nur wenige dieser Projekte werden leider vollendet.</p>"
             },
             "en": {
                 "title": "Projects",
-                "contentHTML": "abcdefgh"
+                "contentHTML": "<p>I try to always have a project in the works on which I can work during my downtime and with which I will learn new things.</p> <p>Sadly only a small amount of projects actually come to flourishment.</p>"
+            }
+        },
+        "WebsiteProject": {
+            "start": 4,
+            "end": 9,
+            "de": {
+                "title": "Diese Webseite",
+                "contentHTML": "<p>Ich hatte begonnen diese Webseite zu bauen, da ich schon länger ein Portfolio und auch einfach eine persönliche Webseite zusammenstellen wollte und dann diese Möglichkeit genutzt hatte um mehr über Web Frameworks, besonders <a href=\"https://vuejs.org\">Vue.js</a> zu lernen.</p> <p>Auf halbem Weg ist mir dann aber aufgefallen, dass diese Seite nicht wirklich gut geeignet ist um <a href=\"https://vuejs.org\">Vue</a> wirklich zu lernen. Die Basics habe ich dadurch trotzdem gelernt.</p> <p>Außerdem habe ich einiges über HTML und besonders CSS und SCSS gelernt, was definitv noch nützlich sein wird.</p>"
+            },
+            "en": {
+                "title": "This Website",
+                "contentHTML": "<p>I started building this website, because I've been meaning to put together a portfolio and also just a personal website for quite some time and then just used this opportunity to learn how to work with web frameworks, specifically <a href=\"https://vuejs.org\">Vue.js</a>.</p> <p>Halfway through I realized that this project isn't really suited to properly learn <a href=\"https://vuejs.org\">Vue</a>, but I still learned the basics either way.</p> <p>But I also picked up a lot of HTML and especially CSS skills during the making.</p>"
             }
         }
     }
