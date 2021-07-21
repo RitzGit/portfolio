@@ -1,6 +1,6 @@
-# portfolio
+# My Portfolio
 
-My personal portfolio website, currently build using Vue.js
+My personal portfolio website, currently built using Vue.js
 
 ## TODO
 - [x] Get the basic grid system working
