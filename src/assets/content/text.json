@@ -43,14 +43,14 @@
         },
         "InterestsMusic": {
             "start": 1,
-            "end": 9,
+            "end": 6,
             "de": {
                 "title": "Musik",
-                "contentHTML": ""
+                "contentHTML": "<p>Seit nun ungefähr 10 Jahren spiele ich aktiv Alt-Saxophon, mit gelegentlichen Eskapaden auf dem Sopran- und Bariton-Saxophon.</p><p>Ich bin besonders begeistert für Jazz und Funk, aber auch für symphonisches musizieren.</p><p>Gelegentlich produziere ich auch Musik unter dem Namen Ritzin.</p>"
             },
             "en": {
                 "title": "Music",
-                "contentHTML": ""
+                "contentHTML": "<p>I've been playing the alto-saxophone for about 10 years now with occasional escapades on the soprano and baritone-saxophone.</p><p>I'm especially interested jazz and funk, but I'm also into orchestral playing.</p><p>Occasionally I also produce music under the name Ritzin.</p>"
             }
         },
         "InterestsTeaching": {

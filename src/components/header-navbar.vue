@@ -36,9 +36,9 @@
         a {
             font-size: 1.5rem;
             text-decoration: none;
-            color: var(--textColour);
+            color: var(--accentColour);
             &:hover {
-                color: var(--accentColour)
+                text-decoration: underline;
             }
         }
     }
