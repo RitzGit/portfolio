@@ -1,25 +1,11 @@
 # portfolio
 
 My personal portfolio website, currently build using Vue.js
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## TODO
+- [x] Get the basic grid system working
+- [ ] Fill everything up with content
+- [x] Dynamically load content
+- [ ] Create a working and resource friendly threejs background that hides on mobile
+- [ ] Make site mobile responsive
+- [ ] Remake as a static site, since vue really isn't needed
