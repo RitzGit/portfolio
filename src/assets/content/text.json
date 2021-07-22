@@ -43,7 +43,7 @@
         },
         "InterestsMusic": {
             "start": 1,
-            "end": 6,
+            "end": 5,
             "de": {
                 "title": "Musik",
                 "contentHTML": "<p>Seit nun ungefähr 10 Jahren spiele ich aktiv Alt-Saxophon, mit gelegentlichen Eskapaden auf dem Sopran- und Bariton-Saxophon.</p><p>Ich bin besonders begeistert für Jazz und Funk, aber auch für symphonisches musizieren.</p><p>Gelegentlich produziere ich auch Musik unter dem Namen Ritzin.</p>"
@@ -54,15 +54,15 @@
             }
         },
         "InterestsTeaching": {
-            "start": 1,
+            "start": 4,
             "end": 9,
             "de": {
                 "title": "Lehre",
-                "contentHTML": "Seit einigen Jahren betreue ich Kinder und Jugendliche bei Freizeitveranstaltungen und habe dabei mein"
+                "contentHTML": "<p>Seit ungefähr fünf Jahren betreue ich Kinder und Jugendliche bei Freizeitveranstaltungen und Unterrichtseinheiten. Dabei habe ich meine Begeisterung für den betreuenden und lehrenden Umgang mit jungen Menschen entdeckt.</p>"
             },
             "en": {
                 "title": "Education",
-                "contentHTML": ""
+                "contentHTML": "<p>For around five years I have been caring for children during recreational and educational events. Throughout those years I discovered my enthusiasm for the education and care of young people.</p>"
             }
         },
         "Projects": {

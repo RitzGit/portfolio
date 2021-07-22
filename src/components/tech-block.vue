@@ -1,36 +1,16 @@
 <template>
     <div class="tech-block">
-        <h3>{{content[this.$lang].title}}</h3>
-        <h4>{{content[this.$lang].lang}}</h4>
-        <div class="skill_content">
-            <div class="skill_brick" v-for="lang in content.skill.lang" :key="lang.name">
-                <a :href="lang.link" target="_blank">
-                    <img :src="lang.img" :alt="lang.name" target="_blank">
-                </a>
-                <div class="proficiency">
-                    <span v-for="n in 5" :key="n" class="dot" v-bind:style="[(n <= lang.n) ? {'background-color' : 'var(--accentColour)'} : {'background-color' : 'var(--textColour)'}]"></span>
-                </div>
-            </div>
-        </div>
-        <h4>{{content[this.$lang].frame}}</h4>
-        <div class="skill_content">
-            <div class="skill_brick" v-for="frame in content.skill.frame" :key="frame.name">
-                <a :href="frame.link" target="_blank">
-                    <img :src="frame.img" :alt="frame.name" target="_blank">
-                </a>
-                <div class="proficiency">
-                    <span v-for="n in 5" :key="n" class="dot" v-bind:style="[(n <= frame.n) ? {'background-color' : 'var(--accentColour)'} : {'background-color' : 'var(--textColour)'}]"></span>
-                </div>
-            </div>
-        </div>
-        <h4>{{content[this.$lang].tools}}</h4>
-        <div class="skill_content">
-            <div class="skill_brick" v-for="tools in content.skill.tools" :key="tools.name">
-                <a :href="tools.link" target="_blank">
-                    <img :src="tools.img" :alt="tools.name" target="_blank">
-                </a>
-                <div class="proficiency">
-                    <span v-for="n in 5" :key="n" class="dot" v-bind:style="[(n <= tools.n) ? {'background-color' : 'var(--accentColour)'} : {'background-color' : 'var(--textColour)'}]"></span>
+        <h3>{{content[language].title}}</h3>
+        <div v-for="s in categories" :key="s">
+            <h4>{{content[language][s]}}</h4>
+            <div class="skill_content">
+                <div class="skill_brick" v-for="elem in content.skill[s]" :key="elem.name">
+                    <a :href="elem.link" target="_blank">
+                        <img :src="elem.img" :alt="elem.name" target="_blank">
+                    </a>
+                    <div class="proficiency">
+                        <span v-for="n in 5" :key="n" class="dot" v-bind:style="[(n <= elem.n) ? {'background-color' : 'var(--accentColour)'} : {'background-color' : 'var(--textColour)'}]"></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -45,6 +25,12 @@
         computed: {
             content() {
                 return fields['Tech']
+            },
+            categories() {
+                return ['lang', 'frame', 'tools'];
+            },
+            language() {
+                return this.$lang;
             }
         }
     }
