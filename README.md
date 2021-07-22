@@ -4,7 +4,7 @@ My personal portfolio website, currently built using Vue.js
 
 ## TODO
 - [x] Get the basic grid system working
-- [ ] Fill everything up with content
+- [x] Fill everything with content
 - [x] Dynamically load content
 - [ ] Create a working and resource friendly threejs background that hides on mobile
 - [x] Make content mobile responsive
