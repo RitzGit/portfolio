@@ -31,17 +31,21 @@
 </script>
 
 <style lang="scss">
+    
     .block {
+        
         background: var(--boxBackgroundColour);
         border-radius: 10px;
         margin: 1ch;
         padding: 1rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
 
         grid-column-start: var(--start);
         grid-column-end: var(--end);
+    
 
         h3 {
+            font-size: 2rem;
             color: var(--accentColour);
         }
     }
@@ -50,6 +54,12 @@
         text-decoration: none;
         &:hover {
             text-decoration: underline;
+        }
+    }
+    @media only screen and (max-width: 768px) { 
+        .block {
+        grid-column-start: 1;
+        grid-column-end: 9;
         }
     }
 </style>

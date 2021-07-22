@@ -4,6 +4,7 @@
         <content-block id="Interests"/>
         <content-block id="InterestsMusic"/>
         <content-block id="InterestsTeaching"/>
+        <tech-block id="Tech"/>
         <content-block id="Projects"/>
         <content-block id="WebsiteProject"/>
     </div>  
@@ -11,11 +12,13 @@
 
 <script>
     import contentBlock from "./content-block.vue"
+    import TechBlock from './tech-block.vue'
 
     export default {
         name: 'content-container',
         components: { 
-            contentBlock 
+            contentBlock ,
+            TechBlock
         }
     }
 </script>

@@ -58,7 +58,7 @@
             "end": 9,
             "de": {
                 "title": "Lehre",
-                "contentHTML": ""
+                "contentHTML": "Seit einigen Jahren betreue ich Kinder und Jugendliche bei Freizeitveranstaltungen und habe dabei mein"
             },
             "en": {
                 "title": "Education",
@@ -82,11 +82,87 @@
             "end": 9,
             "de": {
                 "title": "Diese Webseite",
-                "contentHTML": "<p>Ich hatte begonnen diese Webseite zu bauen, da ich schon länger ein Portfolio und auch einfach eine persönliche Webseite zusammenstellen wollte und dann diese Möglichkeit genutzt hatte um mehr über Web Frameworks, besonders <a href=\"https://vuejs.org\">Vue.js</a> zu lernen.</p> <p>Auf halbem Weg ist mir dann aber aufgefallen, dass diese Seite nicht wirklich gut geeignet ist um <a href=\"https://vuejs.org\">Vue</a> wirklich zu lernen. Die Basics habe ich dadurch trotzdem gelernt.</p> <p>Außerdem habe ich einiges über HTML und besonders CSS und SCSS gelernt, was definitv noch nützlich sein wird.</p>"
+                "contentHTML": "<p>Ich hatte begonnen diese Webseite zu bauen, da ich schon länger ein Portfolio und auch einfach eine persönliche Webseite zusammenstellen wollte und dann diese Möglichkeit genutzt hatte um mehr über Web Frameworks, besonders <a href=\"https://vuejs.org\">Vue.js</a> zu lernen.</p> <p>Auf halbem Weg ist mir dann aber aufgefallen, dass diese Seite nicht wirklich gut geeignet ist um <a href=\"https://vuejs.org\">Vue</a> wirklich zu lernen. Die Basics habe ich dadurch trotzdem gelernt.</p> <p>Außerdem habe ich einiges über HTML und besonders CSS und Sass gelernt, was definitv noch nützlich sein wird.</p><p>Der Code ist <a href=\"https://github.com/RitzGit/portfolio\" target=\"_blank\">hier</a> auf Github erhältlich.</p>"
             },
             "en": {
                 "title": "This Website",
-                "contentHTML": "<p>I started building this website, because I've been meaning to put together a portfolio and also just a personal website for quite some time and then just used this opportunity to learn how to work with web frameworks, specifically <a href=\"https://vuejs.org\">Vue.js</a>.</p> <p>Halfway through I realized that this project isn't really suited to properly learn <a href=\"https://vuejs.org\">Vue</a>, but I still learned the basics either way.</p> <p>But I also picked up a lot of HTML and especially CSS skills during the making.</p>"
+                "contentHTML": "<p>I started building this website, because I've been meaning to put together a portfolio and also just a personal website for quite some time and then just used this opportunity to learn how to work with web frameworks, specifically <a href=\"https://vuejs.org\">Vue.js</a>.</p> <p>Halfway through I realized that this project isn't really suited to properly learn <a href=\"https://vuejs.org\">Vue</a>, but I still learned the basics either way.</p> <p>But I also picked up a lot of HTML and especially CSS and Sass skills during the making.</p><p>The code is available on Github right <a href=\"https://github.com/RitzGit/portfolio\" target=\"_blank\">hier</a>.</p>"
+            }
+        },
+        "Tech": {
+            "de": {
+                "title": "Kenntnisse",
+                "lang": "Sprachen",
+                "frame": "Frameworks",
+                "tools": "Tools"
+            },
+            "en": {
+                "title": "Tech Skills",
+                "lang": "Languages",
+                "frame": "Frameworks",
+                "tools": "Tools"
+            },
+            "skill": {
+                "lang": [
+                    {
+                        "name": "Python",
+                        "n": 4,
+                        "img": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+                        "link": "https://www.python.org"
+                    },
+                    {
+                        "name": "Javascript",
+                        "n": 3,
+                        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
+                        "link": "https://en.wikipedia.org/wiki/JavaScript"
+                    },
+                    {   
+                        "name": "HTML",
+                        "n": 3,
+                        "img": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+                        "link": "https://en.wikipedia.org/wiki/HTML"
+                    },
+                    {
+                        "name": "Java",
+                        "n": 2,
+                        "img": "https://upload.wikimedia.org/wikipedia/de/thumb/e/e1/Java-Logo.svg/2000px-Java-Logo.svg.png",
+                        "link": "https://www.java.com/de/"
+                    },
+                    {   
+                        "name": "CSS",
+                        "n": 2,
+                        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/1200px-CSS.3.svg.png",
+                        "link": "https://en.wikipedia.org/wiki/CSS"
+                    }
+                ],
+                "frame": [
+                    {   
+                    "name": "Spark",
+                    "n": 3,
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Spark_Java_Logo.png",
+                    "link": "https://sparkjava.com"
+                    },
+                    {
+                        "name": "Vue.js",
+                        "n": 2,
+                        "img": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
+                        "link": "https://vuejs.org"
+                    }
+                ],
+                "tools": [
+                    {   
+                        "name":"Gradle",
+                        "n": 2,
+                        "img": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Gradle_logo.png",
+                        "link": "https://gradle.org"
+                    },
+                    {
+                        "name": "MySQL",
+                        "n": 2,
+                        "img": "https://upload.wikimedia.org/wikipedia/de/d/dd/MySQL_logo.svg",
+                        "link": "https://www.mysql.com"
+                    }
+                ]
             }
         }
     }
