@@ -137,10 +137,10 @@
                 ],
                 "frame": [
                     {   
-                    "name": "Spark",
-                    "n": 3,
-                    "img": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Spark_Java_Logo.png",
-                    "link": "https://sparkjava.com"
+                        "name": "Spark",
+                        "n": 3,
+                        "img": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Spark_Java_Logo.png",
+                        "link": "https://sparkjava.com"
                     },
                     {
                         "name": "Vue.js",
@@ -152,13 +152,13 @@
                 "tools": [
                     {   
                         "name":"Gradle",
-                        "n": 2,
+                        "n": 1,
                         "img": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Gradle_logo.png",
                         "link": "https://gradle.org"
                     },
                     {
                         "name": "MySQL",
-                        "n": 2,
+                        "n": 1,
                         "img": "https://upload.wikimedia.org/wikipedia/de/d/dd/MySQL_logo.svg",
                         "link": "https://www.mysql.com"
                     }

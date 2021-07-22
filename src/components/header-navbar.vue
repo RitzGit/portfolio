@@ -43,4 +43,26 @@
             }
         }
     }
+    @media only screen and (max-width: 1000px) { 
+        #navbar {
+            flex-direction: column;
+            grid-column-start: 3;
+            grid-column-end: 7;
+            a {
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+        }
+    }
+    @media only screen and (min-width: 750px) and (max-width: 1000px) { 
+        #navbar {
+            flex-direction: column;
+            grid-column-start: 4;
+            grid-column-end: 6;
+            a {
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+        }
+    }
 </style>

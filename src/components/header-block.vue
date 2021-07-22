@@ -25,16 +25,19 @@
     #header {
         background: var(--boxBackgroundColour);
         
-        height: 20ch;
         border-radius: 10px;
         margin: 1ch;
+        padding:2ch;
 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        grid-area: header;
+        text-align: center;
+
+        grid-column-start: 2;
+        grid-column-end: 8;
 
         a {
             color: var(--accentColour);
@@ -50,6 +53,17 @@
         }
         h2 {
             margin: 0px;
+        }
+    }
+    @media only screen and (max-width: 768px) { 
+        #header {
+            grid-area: header;
+
+            h1 {
+            font-size:3rem;
+            margin: 0px;
+            color: var(--accentColour)
+        }
         }
     }
 </style>
