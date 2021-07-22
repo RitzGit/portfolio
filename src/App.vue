@@ -1,7 +1,7 @@
 <template>
     <div id="app" :class="selected">
         <!--git fork corner-->
-        <a id="github-corner" href="https://github.com/RitzGit/portfolio" target="_blank">
+        <a id="github-corner" href="https://github.com/RitzGit/portfolio" target="_blank" >
             <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 250 250" fill="#151513" >
                 <path id="octo-bg" d="M250 0L135 115h-15l-12 27L0 250V0z"/>
                 <path id="octo-arm" d="M122 109c15-9 9-19 9-19-3-7-2-11-2-11 1-7-3-2-3-2-4 5-2 11-2 11 3 10-5 15-9 16" style="-webkit-transform-origin: 120px 144px; transform-origin: 120px 144px"/>
@@ -75,6 +75,9 @@
 
 <style lang="scss">
     #github-corner {
+        position: absolute; 
+        top:0; 
+        left:0;
         &:hover{
             #octo-arm, #octo-body {
                 fill: var(--accentColour);
