@@ -106,7 +106,7 @@
                 "lang": [
                     {
                         "name": "Python",
-                        "n": 4,
+                        "n": 3,
                         "img": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
                         "link": "https://www.python.org"
                     },
@@ -150,6 +150,12 @@
                     }
                 ],
                 "tools": [
+                    {
+                        "name": "Git",
+                        "n": 3,
+                        "img": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+                        "link": "https://git-scm.com"
+                    },
                     {   
                         "name":"Gradle",
                         "n": 1,
