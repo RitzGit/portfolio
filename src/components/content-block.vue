@@ -1,8 +1,8 @@
 <template>
-    <div class="block" :id="id" :style="startEndVars">
-        <h3>{{content[this.$lang].title}}</h3>
+    <section class="block" :id="id" :style="startEndVars">
+        <h2>{{content[this.$lang].title}}</h2>
         <div v-html="content[this.$lang].contentHTML"></div>
-    </div>   
+    </section>   
 </template>
 
 <script>

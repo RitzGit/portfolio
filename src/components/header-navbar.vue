@@ -1,10 +1,10 @@
 <template>
-    <div id="navbar">
+    <nav id="navbar">
         <a href="#About Me">{{fields["About Me"][this.$lang].title}}</a>
         <a href="#Interests">{{fields["Interests"][this.$lang].title}}</a>
         <a href="#Tech">{{fields["Tech"][this.$lang].title}}</a>
         <a href="#Projects">{{fields["Projects"][this.$lang].title}}</a>
-    </div>      
+    </nav>      
 </template>
 
 <script>

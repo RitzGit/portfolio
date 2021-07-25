@@ -1,8 +1,8 @@
 <template>
-    <div class="tech-block">
-        <h3>{{content[language].title}}</h3>
+    <section class="tech-block">
+        <h2>{{content[language].title}}</h2>
         <div v-for="s in categories" :key="s">
-            <h4>{{content[language][s]}}</h4>
+            <h3>{{content[language][s]}}</h3>
             <div class="skill_content">
                 <div class="skill_brick" v-for="elem in content.skill[s]" :key="elem.name">
                     <a :href="elem.link" target="_blank">
@@ -14,7 +14,7 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </section> 
 </template>
 
 <script>
@@ -47,9 +47,9 @@
         grid-column-start: 1;
         grid-column-end: 9;
 
-        h3 {
+        h2 {
             font-size: 2rem;
-            color: var(--accentColour);
+            color: var(--textColour);
         }
     }
     @media only screen and (max-width: 768px) { 

@@ -1,7 +1,7 @@
 <template>
-    <header id="header">
+    <header>
         <h1>{{headerContent.name}}</h1>
-        <h2 v-html="headerContent[this.$lang]"></h2>
+        <p v-html="headerContent[this.$lang]"></p>
     </header>      
 </template>
 
@@ -22,7 +22,7 @@
 </script>
 
 <style lang="scss">
-    #header {
+    header {
         background: var(--boxBackgroundColour);
         
         border-radius: 10px;
@@ -51,19 +51,20 @@
             margin: 0px;
             color: var(--accentColour)
         }
-        h2 {
+        p {
             margin: 0px;
+            font-size: 1.5rem;
         }
     }
     @media only screen and (max-width: 768px) { 
-        #header {
+        header {
             grid-area: header;
 
             h1 {
-            font-size:3rem;
-            margin: 0px;
-            color: var(--accentColour)
-        }
+                font-size:3rem;
+                margin: 0px;
+                color: var(--accentColour)
+            }
         }
     }
 </style>

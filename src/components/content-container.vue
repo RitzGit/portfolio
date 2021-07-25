@@ -1,5 +1,5 @@
 <template>
-    <div id="content">
+    <main id="content">
         <content-block id="About Me"/>
         <content-block id="Interests"/>
         <content-block id="InterestsMusic"/>
@@ -7,7 +7,7 @@
         <tech-block id="Tech"/>
         <content-block id="Projects"/>
         <content-block id="WebsiteProject"/>
-    </div>  
+    </main>  
 </template>
 
 <script>
