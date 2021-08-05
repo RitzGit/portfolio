@@ -116,17 +116,17 @@
                         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
                         "link": "https://en.wikipedia.org/wiki/JavaScript"
                     },
+                    {
+                        "name": "Java",
+                        "n": 3,
+                        "img": "https://upload.wikimedia.org/wikipedia/de/thumb/e/e1/Java-Logo.svg/2000px-Java-Logo.svg.png",
+                        "link": "https://www.java.com/de/"
+                    },
                     {   
                         "name": "HTML",
                         "n": 3,
                         "img": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
                         "link": "https://en.wikipedia.org/wiki/HTML"
-                    },
-                    {
-                        "name": "Java",
-                        "n": 2,
-                        "img": "https://upload.wikimedia.org/wikipedia/de/thumb/e/e1/Java-Logo.svg/2000px-Java-Logo.svg.png",
-                        "link": "https://www.java.com/de/"
                     },
                     {   
                         "name": "CSS",
@@ -161,12 +161,6 @@
                         "n": 1,
                         "img": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Gradle_logo.png",
                         "link": "https://gradle.org"
-                    },
-                    {
-                        "name": "MySQL",
-                        "n": 1,
-                        "img": "https://upload.wikimedia.org/wikipedia/de/d/dd/MySQL_logo.svg",
-                        "link": "https://www.mysql.com"
                     }
                 ]
             }
