@@ -5,7 +5,7 @@
             <h3>{{content[language][s]}}</h3>
             <div class="skill_content">
                 <div class="skill_brick" v-for="elem in content.skill[s]" :key="elem.name">
-                    <a :href="elem.link" target="_blank">
+                    <a :href="elem.link" target="_blank" rel="noopener noreferrer">
                         <img :src="elem.img" :alt="elem.name" target="_blank">
                     </a>
                     <div class="proficiency">
