@@ -155,12 +155,6 @@
                         "n": 3,
                         "img": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
                         "link": "https://git-scm.com"
-                    },
-                    {   
-                        "name":"Gradle",
-                        "n": 1,
-                        "img": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Gradle_logo.png",
-                        "link": "https://gradle.org"
                     }
                 ]
             }
