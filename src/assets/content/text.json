@@ -120,7 +120,13 @@
                         "name": "Java",
                         "n": 3,
                         "img": "https://upload.wikimedia.org/wikipedia/de/thumb/e/e1/Java-Logo.svg/2000px-Java-Logo.svg.png",
-                        "link": "https://www.java.com/de/"
+                        "link": "https://www.java.com/"
+                    },
+                    {
+                        "name": "Rust",
+                        "n": 2,
+                        "img": "https://www.rust-lang.org/logos/rust-logo-blk.svg",
+                        "link": "https://www.rust-lang.org/"
                     },
                     {   
                         "name": "HTML",

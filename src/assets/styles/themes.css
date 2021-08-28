@@ -3,10 +3,13 @@
     --backgroundColour: #121212;
     --boxBackgroundColour: #1f1f1f;
     --accentColour: #cd4dff;
+    --lightHighlight: #3f3f3f;
 }
+
 .light{
     --textColour: #484b6a;
     --backgroundColour: #fafafa;
     --boxBackgroundColour: #e4e5f1;
     --accentColour: #7700ff;
+    --lightHighlight: #e4e5f1;
 }

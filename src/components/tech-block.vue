@@ -76,6 +76,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        background: var(--lightHighlight);
+        padding: 1rem;
+        border-radius: 1rem;
         img {
             max-width: 100%;
             height: 8rem;
