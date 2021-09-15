@@ -7,6 +7,7 @@
         <tech-block id="Tech"/>
         <content-block id="Projects"/>
         <content-block id="WebsiteProject"/>
+        <content-block id="DiceProject"/>
     </main>  
 </template>
 
