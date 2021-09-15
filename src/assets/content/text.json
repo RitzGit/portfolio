@@ -82,11 +82,11 @@
             "end": 9,
             "de": {
                 "title": "Diese Webseite",
-                "contentHTML": "<p>Ich hatte begonnen diese Webseite zu bauen, da ich schon länger ein Portfolio und auch einfach eine persönliche Webseite zusammenstellen wollte und dann diese Möglichkeit genutzt hatte um mehr über Web Frameworks, besonders <a href=\"https://vuejs.org\">Vue.js</a> zu lernen.</p> <p>Auf halbem Weg ist mir dann aber aufgefallen, dass diese Seite nicht wirklich gut geeignet ist um <a href=\"https://vuejs.org\">Vue</a> wirklich zu lernen. Die Basics habe ich dadurch trotzdem gelernt.</p> <p>Außerdem habe ich einiges über HTML und besonders CSS und Sass gelernt, was definitv noch nützlich sein wird.</p><p>Der Code ist <a href=\"https://github.com/RitzGit/portfolio\" target=\"_blank\">hier</a> auf Github erhältlich.</p>"
+                "contentHTML": "<p>Ich hatte begonnen diese Webseite zu bauen, da ich schon länger ein Portfolio und auch einfach eine persönliche Webseite zusammenstellen wollte und dann diese Möglichkeit genutzt hatte um mehr über Web Frameworks, besonders <a href=\"https://vuejs.org\">Vue.js</a> zu lernen.</p> <p>Auf halbem Weg ist mir dann aber aufgefallen, dass diese Seite nicht wirklich gut geeignet ist um <a href=\"https://vuejs.org\">Vue</a> wirklich zu lernen. Die Basics habe ich dadurch trotzdem gelernt.</p> <p>Außerdem habe ich einiges über HTML und besonders CSS und Sass gelernt, was definitv noch nützlich sein wird.</p><p><a href=\"https://github.com/RitzGit/portfolio\" target=\"_blank\">Der Code ist hier auf Github erhältlich.</a></p>"
             },
             "en": {
                 "title": "This Website",
-                "contentHTML": "<p>I started building this website, because I've been meaning to put together a portfolio and also just a personal website for quite some time and then just used this opportunity to learn how to work with web frameworks, specifically <a href=\"https://vuejs.org\">Vue.js</a>.</p> <p>Halfway through I realized that this project isn't really suited to properly learn <a href=\"https://vuejs.org\">Vue</a>, but I still learned the basics either way.</p> <p>But I also picked up a lot of HTML and especially CSS and Sass skills during the making.</p><p>The code is available on Github right <a href=\"https://github.com/RitzGit/portfolio\" target=\"_blank\">here</a>.</p>"
+                "contentHTML": "<p>I started building this website, because I've been meaning to put together a portfolio and also just a personal website for quite some time and then just used this opportunity to learn how to work with web frameworks, specifically <a href=\"https://vuejs.org\">Vue.js</a>.</p> <p>Halfway through I realized that this project isn't really suited to properly learn <a href=\"https://vuejs.org\">Vue</a>, but I still learned the basics either way.</p> <p>But I also picked up a lot of HTML and especially CSS and Sass skills during the making.</p><p><a href=\"https://github.com/RitzGit/portfolio\" target=\"_blank\">The code is available on Github right here.</a></p>"
             }
         },
         "DiceProject": {
@@ -94,11 +94,11 @@
             "end": 6,
             "de": {
                 "title": "Dicey",
-                "contentHTML": "<p>Dicey</p>"
+                "contentHTML": "<p>Dicey ist eine Bibliothek um Würfel in Würfel-Nomenklatur (1d6) einzulesen und um diese dann zu werfen um das Ergebnis des Wurfes zu erhalten.</p> <p>Die Bibliothek habe ich in Rust als ein Lernprojekt geschrieben um die Grundlagen von Rust zu lernen und zu vertiefen. Natürlich ist der Code nicht perfekt und kann um einiges besser sein.</p> <p>Wenn du trotzdem in den Code reinschnuppern möchtest, dann kannst du das <a href=\"https://github.com/RitzGit/dicey\" target=\"_blank\">hier auf Github tun</a></p>"
             },
             "en": {
                 "title": "Dicey",
-                "contentHTML": "<p>Dicey is a library that is able to parse strings in standard dice notation (1d6) and to roll those parsed strings to get the end result of a dice roll.</p> <p>I wrote it in Rust as a learning project that I might put to more use in a possible future project.</p>"
+                "contentHTML": "<p>Dicey is a library that is able to parse strings in standard dice notation (1d6) and to roll those parsed strings to get the end result of a dice roll.</p> <p>I wrote it in Rust as a learning project. Of course the code won't be perfect, with it being written by a beginner.</p> <p>If you still want to take a peek at the code, then that can be done <a href=\"https://github.com/RitzGit/dicey\" target=\"_blank\">here on Github</a></p>"
             }
         },
         "Tech": {
