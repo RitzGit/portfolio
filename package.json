@@ -45,6 +45,6 @@
     "cover 99.5%"
   ],
   "vue": {
-      "publicPath": "/en/"
+      "publicPath": "/"
   }
 }

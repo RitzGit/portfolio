@@ -3,7 +3,7 @@ import App from './App.vue'
 
 Vue.config.productionTip = true
 
-Vue.prototype.$lang = "en"
+Vue.prototype.$lang = "de"
 
 /*let vm =*/ new Vue(
     {
