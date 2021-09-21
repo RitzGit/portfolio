@@ -13,7 +13,8 @@
     "sass-loader": "^10",
     "three": "^0.130.1",
     "vue": "^2.6.11",
-    "tar": ">=6.1.9"
+    "tar": ">=6.1.9",
+    "set-value": ">=2.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
